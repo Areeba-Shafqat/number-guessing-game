@@ -1,0 +1,21 @@
+{
+  "name": "one1-time-number-guessing-game",
+  "version": "2.0.0",
+  "description": "This is a simple command-line interface (CLI) number guessing game implemented in Typescript. Test your guessing skills by trying to guess the correct number within a specified range!",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "one-time-number-guessing-game": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
